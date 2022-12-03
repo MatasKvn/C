@@ -69,7 +69,6 @@ int main(int argc, char *argv[])
         clearArray(bufferOut, MAX_LENGTH); // clears bufferOut to avoid leftover data
     }
 
-
     // ===//END//===
     free(buffer);
     free(bufferOut);
@@ -155,26 +154,3 @@ void clearArray(char array[], int length)
         array[i] = '\0';
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
