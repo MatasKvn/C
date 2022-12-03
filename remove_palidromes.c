@@ -1,3 +1,9 @@
+/*
+
+This program reads no more than 255 symbols from each line from a .txt file and removes all palindomes, writes it into the output file
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -15,15 +21,15 @@ void clearArray(char array[], int length);// sets all char array elements to '\0
 int main(int argc, char *argv[])
 {
     //temporary, for easier testing
-    argv[1] = "input.txt";
-    argv[2] = "output.txt";
+    //argv[1] = "input.txt";
+    //argv[2] = "output.txt";
 
     if(argv[1] == NULL){
-        printf("Klaida: Duomenu failas nepateiktas!\n");
+        printf("Input file not found!\n");
         return 1;
     }
     if(argv[2] == NULL){
-        printf("Klaida: Rezultatu failas nepateiktas!\n");
+        printf("Output file not found!\n");
         return 1;
     }
 
@@ -33,7 +39,7 @@ int main(int argc, char *argv[])
     outFile = fopen(argv[2], "w");
 
     if(outFile == NULL){
-        printf("Klaida: Rezultatu failo atidaryti nepavyko");
+        printf("Unable to open output file!\n");
         return 1;
     }
  
