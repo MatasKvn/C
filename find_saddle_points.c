@@ -1,6 +1,6 @@
 /*
 
-This program finds the saddle points in the given matrix
+This program finds the saddle points in the given square matrix
 
 */
 
