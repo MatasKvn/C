@@ -1,4 +1,9 @@
-/// Uzduotis Nr. 2
+/*
+
+This program finds the saddle points in the given matrix
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
