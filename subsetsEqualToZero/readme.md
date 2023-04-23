@@ -1,4 +1,4 @@
-# This library provides the function for checking if a set has a subset, the sum of which is equal to 0
+# This folder includes a custom library which provides the function for checking if a set has a subset, the sum of which is equal to 0
 
 # Funtions
 ///
