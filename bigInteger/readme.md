@@ -5,9 +5,9 @@ with integers that are larger than allowed by "C"
 BigInt - big integer datatype, holds the number, its length and sign
 values can be assigned manually, or using the functions provided below
 
-# functions:
+# Functions:
 
-# arithmetic operations
+# Arithmetic operations
 ///
 void divideBigInt(BigInt a, BigInt b, BigInt* quetient, BigInt* remainder)
 divides "a" by "b" and returns the "quetient" and the "remainder"
@@ -22,7 +22,7 @@ void sumBigInt(BigInt a, BigInt b, BigInt* output)
 places the sum of "a" and "b" into "output"
 ///
 
-# absolute value arithmetic operations
+# Absolute value arithmetic operations
 ///
 void sumBigIntAbs(BigInt a, BigInt b, BigInt* output)
 places the sum of "a" and "b" absolute values into "output"
@@ -34,7 +34,7 @@ void absBigInt(BigInt a, BigInt* output)
 places the absolute value of "a" into "output"
 ///
 
-# conversion operations
+# Conversion operations
 ///
 BigInt readBigInt(FILE *stream)
 returns the read string as BigInt
@@ -52,7 +52,7 @@ int BigInt_toInt(BigInt n)
 returns the converted BigInt to int(make sure the BigInt is small enough for int to hold)
 ///
 
-# utility operations
+# Other operations
 ///
 int compareBigInt(BigInt a, BigInt b)
 compares "a" and "b", returns 1 if a>b, -1 if a<b, 0 if a=b
